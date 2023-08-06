@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.one {
+  /* border: 1px solid black; */
+  margin: 0 auto;
+
+  display: flex;
+
+  width: 1440px;
+  height: 900px;
+}
+
+.one__info {
+  /* border: 1px solid black; */
+  background: #f3eee8;
+
+  padding-top: 65px;
+  padding-left: 150px;
+
+  width: 720px;
+  height: 900px;
+}
+
+.one__info-menu {
+  /* border: 1px solid black; */
+
+  display: flex;
+}
+
+.one__info-logo {
+  /* border: 1px solid black; */
+  margin-right: 32px;
+
+  color: var(--terracotta, #a06056);
+  font-family: Merriweather;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.one__info-navigation {
+  /* border: 1px solid black; */
+  padding-top: 3.5px;
+  /* Без паддинга текст центруется не так как на макете, уходит в верх! */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.one__info-navigation a {
+  /* border: 1px solid black; */
+  text-decoration: none;
+
+  color: #706458;
+  font-family: Varta;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.one__info-category {
+  /* border: 1px solid black; */
+  margin-top: 120.5px;
+
+  color: var(--terracotta, #a06056);
+  font-family: Varta;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.one__info-title {
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  width: 410px;
+  height: 210px;
+
+  color: var(--terracotta, #a06056);
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 70px; /* 140% */
+  letter-spacing: -0.4px;
+}
+
+.one__info-subtitle {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  width: 420px;
+  height: 62px;
+
+  color: var(--brown-light, rgba(112, 100, 88, 0.9));
+  font-family: Varta;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30.8px;
+}
+
+.one__btn-arrow-down {
+  /* border: 1px solid black; */
+
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 20px 17px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 48px;
+  background-color: #f3eee8;
+  border-radius: 100px;
+  border: 2px solid var(--terracotta, #a06056);
+}
+
+.one__photo-lamps {
+  background-image: url(/img/Lamps.jpg);
+  width: 720px;
+  height: 900px;
+}
+
+.one__photo-message {
+  margin-top: 55.5px;
+  margin-left: 619px;
+
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100px;
+  border: 2px solid #fff;
+}
+/* нужно ли переносить значения картинки с макета???
+бордер на макете более жирный, значения перенес с макета!!! */
+.one__photo-message-img {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+
+  fill: var(--color-color-white, #fff);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.two {
+  border: 1px solid black;
+
+  width: 1440px;
+  height: 665px;
+}
+
+.three {
+  border: 1px solid black;
+
+  width: 1440px;
+  height: 493px;
+
+  display: flex;
+}
+
+.four {
+  border: 1px solid black;
+
+  width: 1440px;
+  height: 1034px;
+}
+
+.five {
+  border: 1px solid black;
+
+  width: 1440px;
+  height: 628px;
+}
